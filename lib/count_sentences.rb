@@ -18,7 +18,7 @@ class String
     string_input = ""
     count = 0
     string_input = self
-    count = string_input.split(/\.|\?|\!/).length
+    count = string_input.split(/\.|\?|\!\s/).length
   end
 end
 # strings = []
